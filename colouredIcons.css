@@ -1376,6 +1376,10 @@ path[d^='M11.0366 11.5588C10.8379 11.6803 ']{color: var(--CI_ServerSettings_Open
 path[d^='M17.3 18.7a1 1 0 0 0 1.4-1.4L13.4']{color: var(--CI_XButton);}
 path[d^='M19.3 20.7a1 1 0 0 0 1.4-1.4L13.4']{color: var(--CI_XButton);}
 /* path[d$='13.42 12l3.3-3.3a1 1 0 0 0 0-1.4Z']{color: var(--CI_XButton);} */
+/* Maximize Button */
+div[aria-label="Maximize"] rect[width="9"][height="9"][x="1.5"][y="1.5"] {
+  color: var(--CI_MaxButton);
+}
 /* Leaving App Arrow */
 path[d^='M8 5a1 1 0 0 0 0 2h7.59L5.29 17.3']{color: var(--CI_LeavingArrow);}
 path[d^='M7 4a1 1 0 0 0 0 2h9.59L4.29 18.3']{color: var(--CI_LeavingArrow);}
