@@ -614,7 +614,7 @@ div[aria-label='Add Reaction']:hover {filter: brightness(calc(var(--CI_HoverTint
   path[d^='M18 10.7101C15.1085 9.84957 13 7.']:not(:only-child) {d: path('M18 10.7101C15.1085 9.8496 13 7.171 13 4c0-.3074.0198-.6101.0582-.907C12.7147 3.0319 12.3611 3 12 3 8.686 3 6 5.686 6 9v5c0 1.657-1.344 3-3 3v1h18v-1c-1.656 0-3-1.343-3-3v-3.2899ZM8.5549 19c.693 1.19 1.969 2 3.445 2s2.752-.81 3.445-2H8.5549Z');}
 
   /* Emoji */
-  .spriteContainer__04eed {
+ div[aria-label="Add Emoji"] .spriteContainer__04eed::before {
     transform: scale(1) !important;
     content: '';
     width: 18px;
